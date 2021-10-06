@@ -102,6 +102,8 @@ public class SampleProg {
 		continu.click();
 		
 		System.out.println("hello");
+		System.out.println("hello");
+
 
 	}
 
