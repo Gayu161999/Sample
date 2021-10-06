@@ -100,12 +100,17 @@ public class SampleProg {
 
 		WebElement continu = driver.findElement(By.id("continue"));
 		continu.click();
+		
+		System.out.println("hello");
+		System.out.println("hello");
+
 
 	}
 
 	@Parameters({ "first_name", "last_name", "address", "cc_num", "cc_cvv" })
 	@Test
 	private void tC3(String s4, String s5, String s6, String s7, String s8) {
+		System.out.println("hi");
 		WebElement fname = driver.findElement(By.id("first_name"));
 		fname.sendKeys(s4);
 		WebElement lname = driver.findElement(By.id("last_name"));
