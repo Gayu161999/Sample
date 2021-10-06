@@ -100,6 +100,8 @@ public class SampleProg {
 
 		WebElement continu = driver.findElement(By.id("continue"));
 		continu.click();
+		
+		System.out.println("hello");
 
 	}
 
